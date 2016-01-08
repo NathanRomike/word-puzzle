@@ -22,3 +22,5 @@ public class App {
       model.put("template", "templates/results.vtl" );
 
     }
+
+    
