@@ -1,7 +1,6 @@
 import java.util.Map;
 import java.util.HashMap;
 import javax.swing.JOptionPane;
-
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
@@ -21,7 +20,8 @@ public class App {
     HashMap model = new HashMap();
     model.put("template", "templates/results.vtl" );
 
-    String userWordInputString = request.queryParams("wordInput");
+    String inputToPass = request.queryParams("userWordInputForm");
+    String userWordInputString = puzzledWord(inputToPass);
     model.put("userWordInputString", userWordInputString);
     return new ModelAndView(model, layout);
   }, new VelocityTemplateEngine());
