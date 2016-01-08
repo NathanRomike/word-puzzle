@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T21:20:24" hostname="NDR-Mac.local" time="0.005">
+<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T21:45:48" hostname="NDR-Mac.local" time="0.004">
   <properties/>
   <testcase name="puzzledWord_shouldReplaceAWithDash_dash" classname="AppTest" time="0.003"/>
   <testcase name="puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash" classname="AppTest" time="0.0"/>
