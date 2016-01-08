@@ -4,8 +4,9 @@ import static org.junit.Assert.*;
 public class AppTest {
 
   @Test
-  public void wordPuzzle_shouldReplaceAWithDash_dash() {
-    App app = new App();
-    String wordPuzzleResult = "-";
-    assertEquals(result, app.wordPuzzle("a"));
+  public void App_shouldReplaceAWithDash_dash() {
+    App App = new App();
+    String puzzledWord = "-";
+    assertEquals("-", App.puzzledWord("a"));
   }
+}
