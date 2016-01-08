@@ -10,7 +10,7 @@ public class App {
   public static void main(String[] args) {}
 
     public static String puzzledWord(String userWordInput) {
-     String puzzledWord = userWordInput.replace('a', '-');
+     String puzzledWord = userWordInput.replace('a', '-').replace('e', '-').replace('i', '-').replace('o', '-').replace('u', '-');
      return puzzledWord;
   }
 }

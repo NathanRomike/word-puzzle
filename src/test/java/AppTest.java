@@ -16,4 +16,5 @@ public class AppTest {
     String puzzledWord = "-";
     assertEquals("-", App.puzzledWord("e"));
   }
+
 }
