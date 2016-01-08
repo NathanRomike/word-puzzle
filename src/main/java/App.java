@@ -19,9 +19,13 @@ public class App {
 
   get("/results", (request, response) -> {
     HashMap model = new HashMap();
-    model.put("template", "templates/results.vtl");
-  }
+    model.put("template", "templates/results.vtl" );
 
+    String userWordInputString = request.queryParams("wordInput");
+    model.put("userWordInputString", userWordInputString);
+    return new ModelAndView(model, layout);
+  }, new VelocityTemplateEngine());
+}
 
     public static String puzzledWord(String userWordInput) {
      String puzzledWord = userWordInput.replace('a', '-').replace('e', '-').replace('i', '-').replace('o', '-').replace('u', '-');
