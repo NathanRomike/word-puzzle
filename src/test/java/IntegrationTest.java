@@ -38,4 +38,12 @@ public class IntegrationTest extends FluentTest {
       submit(".btn-info");
       assertThat(pageSource()).contains("H-ll- w-rld");
     }
+
+  @Test
+    public void multipleWordsInputTest() {
+      goTo("http://localhost:4567");
+      fill("#userWordInputForm").with("This is a test of the word puzzle");
+      submit(".btn-info");
+      assertThat(pageSource()).contains("Th-s -s - t-st -f th- w-rd p-zzl-");
+    }
   }

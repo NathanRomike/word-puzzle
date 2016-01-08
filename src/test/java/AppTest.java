@@ -30,5 +30,4 @@ public class AppTest {
     String puzzledWord = "H-ll- W-rld";
     assertEquals("H-ll- W-rld", App.puzzledWord("Hello World"));
   }
-
 }

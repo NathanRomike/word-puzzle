@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T21:12:29" hostname="NDR-Mac.local" time="0.013">
+<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T21:20:24" hostname="NDR-Mac.local" time="0.005">
   <properties/>
-  <testcase name="puzzledWord_shouldReplaceAWithDash_dash" classname="AppTest" time="0.005"/>
-  <testcase name="puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash" classname="AppTest" time="0.001"/>
+  <testcase name="puzzledWord_shouldReplaceAWithDash_dash" classname="AppTest" time="0.003"/>
+  <testcase name="puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash" classname="AppTest" time="0.0"/>
   <testcase name="puzzledWord_shouldReplaceVowelsWithDashes_hdashlldashspacewdashrld" classname="AppTest" time="0.0"/>
   <testcase name="puzzledWord_shouldReplaceEWithDash_dash" classname="AppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
