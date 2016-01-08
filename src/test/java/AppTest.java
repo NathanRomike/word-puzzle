@@ -17,4 +17,11 @@ public class AppTest {
     assertEquals("-", App.puzzledWord("e"));
   }
 
+  @Test
+  public void puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash() {
+    App app = new App();
+    String puzzledWord = "-ppl-";
+    assertEquals("-ppl-", App.puzzledWord("apple"));
+  }
+
 }
