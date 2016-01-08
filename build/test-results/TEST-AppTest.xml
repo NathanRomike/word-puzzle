@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T18:52:55" hostname="NDR-Mac.local" time="0.014">
+<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T19:00:51" hostname="NDR-Mac.local" time="0.009">
   <properties/>
   <testcase name="puzzledWord_shouldReplaceAWithDash_dash" classname="AppTest" time="0.004"/>
   <testcase name="puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash" classname="AppTest" time="0.001"/>
   <testcase name="puzzledWord_shouldReplaceVowelsWithDashes_hdashlldashspacewdashrld" classname="AppTest" time="0.0"/>
-  <testcase name="puzzledWord_shouldReplaceEWithDash_dash" classname="AppTest" time="0.0"/>
+  <testcase name="puzzledWord_shouldReplaceEWithDash_dash" classname="AppTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
