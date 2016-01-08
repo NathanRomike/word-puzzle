@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T20:54:21" hostname="NDR-Mac.local" time="0.006">
+<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-08T21:06:25" hostname="NDR-Mac.local" time="0.011">
   <properties/>
-  <testcase name="puzzledWord_shouldReplaceAWithDash_dash" classname="AppTest" time="0.003"/>
-  <testcase name="puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash" classname="AppTest" time="0.001"/>
-  <testcase name="puzzledWord_shouldReplaceVowelsWithDashes_hdashlldashspacewdashrld" classname="AppTest" time="0.001"/>
+  <testcase name="puzzledWord_shouldReplaceAWithDash_dash" classname="AppTest" time="0.004"/>
+  <testcase name="puzzledWord_shouldReplacedApplewithDashPPLDash_dashppldash" classname="AppTest" time="0.0"/>
+  <testcase name="puzzledWord_shouldReplaceVowelsWithDashes_hdashlldashspacewdashrld" classname="AppTest" time="0.0"/>
   <testcase name="puzzledWord_shouldReplaceEWithDash_dash" classname="AppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

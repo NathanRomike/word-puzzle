@@ -22,4 +22,12 @@ public class IntegrationTest extends FluentTest {
       goTo("http://localhost:4567/");
       assertThat(pageSource()).contains("");
     }
-  }  
+
+  @Test
+    public void singleWordInputTest() {
+      goTo("http://localhost:4567");
+      fill("#userWordInputForm").with("apple");
+      submit(".btn-info");
+      assertThat(pageSource()).contains("-ppl-");
+    }
+  }
